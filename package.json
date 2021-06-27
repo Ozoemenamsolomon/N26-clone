@@ -1,0 +1,44 @@
+{
+  "name": "N26-clone",
+  "private": true,
+  "description": "N26´s fantastic UI inspired me to make a clone of their mobile native app using web technology like Gatsby, this app could be  converted into an installable PWA, available in the Appstores for the benefit of customers with poor internet Signal. Facebook call theirs <Facebook Lite>, Twitter call theirs <Twitter Lite> ",
+  "version": "0.1.0",
+  "author": "Solomon Ozoemenam <ozoemenamsolomon@yahoo.com>",
+  "dependencies": {
+    "gatsby": "^3.6.2",
+    "gatsby-plugin-gatsby-cloud": "^2.6.1",
+    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-manifest": "^3.6.0",
+    "gatsby-plugin-offline": "^4.6.0",
+    "gatsby-plugin-react-helmet": "^4.6.0",
+    "gatsby-plugin-sharp": "^3.6.0",
+    "gatsby-source-filesystem": "^3.6.0",
+    "gatsby-transformer-sharp": "^3.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "5.3.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "keywords": ["N26", "Clone", "Berlin", "Germany", "PWA", "Accessibility"],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
